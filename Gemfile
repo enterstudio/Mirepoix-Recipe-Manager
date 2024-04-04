@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 
 ruby '2.2.0'
-gem 'rails', '4.2.1'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '7.0.8.1'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.1.0'
+gem 'turbolinks', '>= 2.5.4'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'carrierwave', '0.10.0'
+gem 'sdoc', '~> 1.0.0', group: :doc
+gem 'carrierwave', '2.2.6'
 gem 'mini_magick', '3.8.0'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
